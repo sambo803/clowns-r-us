@@ -1,0 +1,27 @@
+
+
+### get clowns index
+GET http://localhost:3000/clowns.json
+### post clowns create
+POST http://localhost:3000/clowns.json
+Content-Type: application/json
+
+{
+  "name": "Ms_Happy",
+  "skill": "smiling"
+}
+
+### get clowns post
+GET http://localhost:3000/clowns/2.json
+
+### patch clowns update
+PATCH http://localhost:3000/clowns/3.json
+Content-Type: application/json
+
+{
+  "name": "Mr._Jinkles",
+  "skill": "ballons"
+}
+
+### delete clowns destroy
+DELETE http://localhost:3000/clowns/3
